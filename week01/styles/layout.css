@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    /* Defines 3 columns: fixed-width sidebar, flexible main content, fixed-width sidebar */
+    grid-template-columns: 200px 1fr 200px;
+    /* Defines 3 rows: auto-height header, flexible content area, auto-height footer */
+    grid-template-rows: auto 1fr auto;
+    /* Names the areas for easier placement */
+    grid-template-areas:
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+    height: 100vh;
+    /* Ensures the body takes up the full viewport height */
+    margin: 0;
+    /* Removes default body margin */
+    gap: 1rem;
+    /* Adds space between grid items */
+}
+
+/* Assigns each HTML element to its named grid area */
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* Optional styling for visualization */
+body>* {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
