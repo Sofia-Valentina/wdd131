@@ -24,13 +24,7 @@ body {
 
 .header-content{
     padding: 2em;
-}
-
-nav.navbar{
-    display: flex; /* REQUIRED: Flexbox */
-    justify-content: space-between;
-    align-items: center;
-
+    width: 100%;
 }
 
 .navbar {
@@ -41,8 +35,12 @@ nav.navbar{
 
 .navbar ul{
     list-style-type: none;
-
-}
+    display: flex;
+    justify-content: space-evenly;
+    /* ou space-between */
+    width: 100%;
+    list-style-type: none;
+} 
 
 .navbar a {
     text-decoration: none;
@@ -55,10 +53,6 @@ nav.navbar{
 
 .navbar a:hover{
    background-color: rgb(228, 190, 158);
-}
-
-.navbar li {
-    float: left;
 }
 
 aside {
