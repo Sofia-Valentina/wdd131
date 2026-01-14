@@ -37,9 +37,7 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    /* ou space-between */
     width: 100%;
-    list-style-type: none;
 } 
 
 .navbar a {
