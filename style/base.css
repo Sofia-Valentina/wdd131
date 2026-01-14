@@ -1,5 +1,6 @@
 body {
     display: flex;
+    width: 100%;
     flex-direction: column;
     background-color: #f9fafb;
     font-family: 'Source Sans 3', sans-serif;
@@ -60,7 +61,7 @@ span {
     padding: 1em 1.5em;
 }
 
-.card-header h3 {
+.card-header h2 {
     margin: 0;
     color: #fafafa;
     font-family: 'Playfair Display', sans-serif;
@@ -72,6 +73,11 @@ span {
     flex-direction: column;
     gap: 2em;
 }
+
+.card-body li {
+    margin-bottom: 0.90em;
+}
+
 
 .about_me,
 .my_country {
@@ -115,7 +121,7 @@ nav a {
     color: #fafafa;
 }
  nav a:hover{
-background-color: #7d3fb2;
+    background-color: #7d3fb2;
  }
 
 footer {
