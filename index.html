@@ -3,9 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Chris Mills" />
+    <meta name="description" content="Personal home page for WDD 131 – Dynamic Web Fundamentals by
+    Sofia Valentina Rumbos Nieves, highlighting web development fundamentals, projects, and student profile." />
+    <title>"WDD 131 – Dynamic Web Fundamentals – Sofia Nieves</title>
+    <link rel="stylesheet" href="style/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@500;700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Sofia</h1>
+    <header>
+        <span id="course-tittle">
+            <h2>WDD 131 – Dynamic Web Fundamentals</h2>
+        </span>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/sofia-nieves-67167b23a/">LinkedIn</a></li>
+                    <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                    <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/32?lang=eng">Scripture</a></li>
+                    <li><a href="#">Final Project</a></li>
+                </ul>
+            </nav>
+    </header>
+    <h1 class="name-tittle">Sofia Nieves</h1>
+    <main class="main-content">
+    <section class="card">
+    
+        <!-- FAIXA DO CARD -->
+        <div class="card-header">
+            <h3>About Me</h3>
+        </div>
+    
+        <!-- CONTEÚDO DO CARD -->
+        <div class="card-body">
+    
+            <div class="about_me">
+                <div class="text">
+                    <p>
+                        Hello! My name is Sofia Valentina Rumbos Nieves. I am a student of web
+                        development and this page is part of the WDD 131 – Dynamic Web Fundamentals
+                        course.
+                    </p>
+                </div>
+    
+                <img src="images/perfil_sofia.jpeg" alt="Foto de Sofia" class="profile-img">
+            </div>
+    
+            <!-- MY COUNTRY -->
+            <h2 class="my_country_tittle">La Gran Sabana, Venezuela</h2>
+    
+            <div class="my_country">
+                <img src="images/flag_of_Venezuela.svg.png" alt="Flag of Venezuela" class="flag-img">
+    
+                <div class="text">
+                    <p>
+                        I was born in La Gran Sabana, a beautiful and unique natural region in southeastern Venezuela. La Gran Sabana is part of
+                        the Guiana Shield, one of the oldest geological formations on Earth, known for its vast plains, dramatic tabletop
+                        mountains called tepuis, and breathtaking waterfalls.
+                        
+                        This region is home to rich biodiversity, with many plant and animal species found nowhere else. La Gran Sabana is also
+                        part of Canaima National Park, a UNESCO World Heritage site, and features incredible landscapes that attract visitors
+                        from around the world.
+                        
+                        Growing up in such a magnificent place has always inspired me and made me proud of my roots in Venezuela. 🌿🇻🇪
+                    </p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <section class="card">
+    
+        <!-- FAIXA DO CARD -->
+        <div class="card-header">
+            <h3>Course Information</h3>
+        </div>
+    
+        <!-- CONTEÚDO DO CARD -->
+        <div class="card-body">
+            <ul class="links_list">
+                <li><a href="https://dev.to/">Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com/">Css Tricks</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/?casx=ks&im_ref=2H6Rv1S1RxycTATQgMSSh3gCUkpXfsW9yX1wSs0&sharedid=1868737&irpid=313262&utm_medium=affiliate&utm_source=impact&utm_audience=mx&utm_tactic=%22Germany%22%2C%22Subnetwork%22&utm_content=3281534&utm_campaign=313262&irgwc=1&afsrc=1&gad_source=1">Udemy</a></li>
+                <li><a href="https://picsum.photos/">Lorem Picsum Image Placeholder</a></li>
+            </ul>
+        </div>
+    
+    </section>
+    </main>
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> Sofia Valentina Rumbos Nieves | Venezuela
+        </p>
+        <p>
+            Last Modification:<span id="lastModified"></span> 
+        </p>
+    </footer>
 </body>
 </html>
