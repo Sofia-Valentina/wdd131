@@ -6,7 +6,7 @@ body {
     font-family: 'Source Sans 3', sans-serif;
 }
 
-.name-tittle{
+.name-title{
     text-align: center;
 }
 
@@ -15,12 +15,17 @@ h2 {
     font-family: 'Playfair Display', sans-serif;
 }
 
+#course-title p {
+    font-weight: bold;
+    font-size: large;
+}
+
 header {
     width: 100%;
     background-color: #5a2183;
 }
 
-header #course-tittle {
+header #course-title {
     padding: 2em;
     text-align: center;
     color: #fafafa;
